@@ -1,0 +1,196 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header nav .nav-right-section {
+    width: 166px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+nav .nav-right-section a {
+    color: #5f6368;
+    
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/162/162740.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 11px;
+    height: 11px;
+    margin-left: 14px;
+}
+
+nav .nav-right-section .photo-logo {
+   background-image: url('https://lh3.googleusercontent.com/ogw/ADea4I44Ij_GbVyGTFt7rIU73Xs66EwJ0vsOvUcrkkQZvw=s32-c-mo');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-left: 4px;
+}
+
+
+main {
+    margin-top: 41px;
+    text-align: center;
+}
+
+.main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 13px;
+}
+
+.main-logo img {
+    height: 64px;
+    width: 183px;
+}
+
+.main-input {
+    width: 390px;
+    margin: 0 auto;
+    
+}
+
+.main-input-container {
+    width: 366px;
+    height: 28px;
+    border-radius: 24px;
+    border: 1px solid #cbd0d8;
+    padding: 2px 8px 0 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-input input {
+    width: 335px;
+    height: 22px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: none;
+    outline: none;
+}
+
+.main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;   
+}
+
+.main-input-container .search-icon {
+    background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+}
+
+.main-input-container .micro-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.main-buttons {
+    width: 530px;
+    margin: 0 auto;
+    padding-top: 18px;
+}
+
+.main-buttons div {
+    display: inline-block;
+}
+
+.main-buttons button {
+    height: 26px;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 10px;
+    color: #5f6368;
+    border-radius: 4px;
+    padding: 0 11px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.main-buttons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
+}
+
+footer {
+    width: 100%;
+    height: 63px;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    font-size: 9.5px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer .footer-location {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 19px ;
+    color: #5f6368;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+footer .footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer ul li a {
+    margin: 12px;
+    text-decoration: none;
+    color: #5f6368;
+}
